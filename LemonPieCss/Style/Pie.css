@@ -1,0 +1,49 @@
+#canasta{
+    padding-top: 10px;
+    color:5D5D5D;
+    font-size: 30px;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}   
+h3{
+    font-style: italic;
+    color: #747474;
+}
+#imagen-fondo{
+    
+position: relative;
+    background-image: url("/LemonPieCss/Pictures/lemon-pie-1.png") ;
+    opacity: 90% ;
+    background-position: 0 -200 ; 
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    height: 400px;
+    color: white;
+
+}
+h1{position: relative;
+    font-size:60px;
+    padding-top: 15% ;
+background-color: rgba(0, 0,0, 0.3);
+padding-bottom: 2%;
+margin: 0%;
+}
+.texto-principal{
+ position: relative;
+    font-size: 150%;
+background-color: rgba(0, 0,0, 0.3);
+padding-top: 25px;
+margin: 0%;}
+footer {padding-top: 10px;
+    text-align: center;
+    background-color: #B2B1B1;
+    margin: opx;
+    border: 0px;
+height:  50px;
+margin-top: 50px;
+}
+body {margin: 0px;
+}

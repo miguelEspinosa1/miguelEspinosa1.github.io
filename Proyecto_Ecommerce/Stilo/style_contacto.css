@@ -1,0 +1,32 @@
+@import url("./style_global.css");
+.menu{
+    background-color: var(--colorMenu) ;   
+    text-decoration: none; 
+     padding-top: 11px;
+     padding-bottom: 10px;
+ }
+
+ footer{
+    position: absolute;
+    width: 1440px;
+    height: 61px;
+text-align: center;
+background-color: var(--colorCuerpo); 
+color: var(--fondocajaheroe);
+top: 1350px;
+}
+.registro{position:absolute;
+    left: 410px;
+    top: 229px;
+}
+.textoprincipal{
+    color: var(--tituloPagina);
+    width: 327px;
+    height: 72px;
+    font-size: 72px;}
+    .cajaComentario{
+
+        width: 620px;
+height: 251px;
+border: 1.53407px solid #000000;
+    }

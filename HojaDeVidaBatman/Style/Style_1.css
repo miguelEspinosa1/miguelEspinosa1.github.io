@@ -1,0 +1,31 @@
+   header { background-color:#c2c2c2;       
+    text-align  : center } 
+    h1 {background-color: #9d9fa1;
+        color: #1b60a6;
+        letter-spacing: 10px;
+        text-transform: uppercase; 
+        word-spacing: 20px;}
+
+        h2{ background-color:#9d9fa1;
+            color: brown;
+    font-size: 16px;
+    letter-spacing: 9px;  
+    text-transform: uppercase;
+    word-spacing: 10px;}
+    .colocar-negrita{text-transform: uppercase;
+    font-weight: bold;}
+    .colocar-mayuscula{text-transform: uppercase;}
+    #ajustar-tamaño { font-size: 13px;;}
+    footer{ 
+        background-color: darkblue;
+        color: white;  
+        text-align: center;
+    }
+    .tamaño-imagen{  height: 20px;}
+    main{
+    margin: 60px 25% 50px 25%;    }
+    body{
+        padding: 0mm;
+        margin:0mm;
+    text-align: left;
+    }

@@ -1,0 +1,138 @@
+@import url("./style_global.css");
+    .menu{
+   background-color: var(--colorMenu) ;   
+   text-decoration: none; 
+    padding-top: 11px;
+    padding-bottom: 10px;
+}
+.textomenu{
+    text-decoration: none;
+    color: var(--colorTextoCentral);
+}
+#textoA{
+    position: relative;
+    left: 1030px;
+}
+#textoB{
+    position: relative;
+    left: 1060px;
+
+}
+#textoC{
+    position: relative;
+    left: 1090px;
+}
+.heroe{
+    z-index: 20;
+border-radius: 100px;
+position: relative;
+bottom: 60px;
+left: 90px;
+}
+#corazon{
+    position: relative;
+    font-size: 50px;
+bottom: 260px;
+right: 100px;
+}
+.tituloHeroe{
+    position: relative;
+    text-align: center;
+    top: 60px;
+    font-size: 30px;   
+}
+.textoHeroe{
+    z-index: 10;
+position: relative;
+left: 20px;
+top: 50px;
+height: 113px;
+width: 267px;
+}
+.fondoCaja{
+    bottom: 150px;
+    background-color: var(--fondocajaheroe) ;
+        width: 300px;
+    position: relative;
+    height: 366px;
+    
+}
+.link{
+text-align: center;
+position: relative;
+left: 80px;
+padding-left: 37px;
+padding-right: 37px;
+padding-top: 15px;
+padding-bottom: 15px;
+top: 90px;
+ text-decoration: none;
+color:   var(--fondocajaheroe);   
+background-color:  var(--colorCuerpo);
+}
+header{position: absolute;
+    height: 100%;
+    Width:1440px;
+}
+main{
+    position: relative;
+}
+.card1{
+    display: inline-block;
+    position: absolute;
+    top: 320px;
+    left:160px;
+    width: 300px;
+    height: 580px;
+   
+}
+.card2{
+    display: inline-block;
+    position: absolute;
+    top: 320px;
+    left:530px;
+    width: 300px;
+    
+    height: 580px;
+}
+.card3{
+    display: inline-block;
+    position: absolute; 
+    top: 320px;
+    height: 580px;
+    width: 300px;
+    left: 900px;
+}
+
+footer{
+    position: absolute;
+    bottom: -400px;
+    Width:1440px;
+text-align: center;
+background-color: var(--colorCuerpo); 
+color: var(--fondocajaheroe);
+}
+.dot{position: relative;
+    bottom: 8px;
+    left: 20px;
+ 
+    color: var(--colorTextoCentral);
+  margin: 0px;
+    z-index: 60;
+    font-size: 62px; 
+}
+    
+.caja{
+    z-index: 20;
+    height: 40px;
+    background-color: var(--colorCuerpo);
+    position: fixed;
+    right: 40px;
+    top: 300px;
+    width: 82px;
+height: 82px;
+border-radius: 50px;
+transition: 1s;}
+.caja:hover{
+    background-color: #001D2D;
+        }

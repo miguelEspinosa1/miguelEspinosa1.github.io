@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href ="../Stilo/AniadirProcess.css">
+    <title>Añadir heroe</title>
+</head>
+<body>
+    <header>
+        
+        <div class="banner">20% de descuento en todos los productos!</div>
+
+        <h2> <img src="../Imag/Cpu.png" alt="imagenDeMarca">Nombre Tienda</h2>
+    <div class="menu">
+<a class="textomenu" id="textoA" href="../Contacto/Contacto.html">Contacto</a>
+<a class="textomenu" id="textoB" href="../Registro/Registro.html">Registrarme</a>
+<a class="textomenu" id="textoC" href="../Ingreso/Ingresar.html">Ingresar</a></div>
+</header>
+<main>
+            <section class="Cajafondo">
+              <div class="titulo"><h1>Añadí tu super!</h1>
+                <p class="letra">Agregá tu personaje favorito completando las opciones.</p></div>  
+            <div class="form">
+                <form action="/datos/" method="POST">
+            <div class="otrofondo">
+                <label class="letra" for="nombre">Nombre</label>
+                <p>
+                <input type="text" name="nombre" id="nombre" class="nombre">
+                </p>
+           <label class="letra" for="fecha">Fecha</label>
+           <p><input type= "date" nombre="fecha" id="fecha" class="nombre"></p>
+            
+            <textarea class="comentario" name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </div>
+            <div class="otrofondo2">
+                <label for="especie" class="letra" >Especie</label>
+                <p class="especie"><select name="especie" id="especie" class="nombre"></p>
+                    <option  option value="" disabled selected>Pais</option>
+                    <option value="unknown">unknown</option>
+                </select>
+                <p class="foto"><label for="Foto" class="letra">Agregar foto</label></p>
+                <p ><input id="files"  type="file" name="foto" accept=".jpg" ></p>
+                <p class="poderes"><label for="poderes" class="letra">Poderes</label>
+                </p><p><label>
+                    <input type="checkbox" name="poderes" id="poderes" value="Superinteligencia">Superinteligencia
+            </label>
+                </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="poderes" id="poderes" value="volar">Volar
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="poderes" id="poderes" value="vista rayo laser">Vista rayo láser
+                </label>
+            </p>
+            <p class="poderesborde">
+                <label>
+                  <input type="checkbox" name="poderes" id="poderes" value="billetera gorda">Billetera gorda
+                </label>
+            </p>
+            <p><label for="Tipo de personaje" class="letra">Tipo de personaje</label></p>
+                <p><label><input type="radio" name="tipo" id="tipo" value="heroe">Heroe/Heroina</label></p>
+                <p><label><input type="radio" name="tipo" id="tipo" value="villano">Villano/Villana</label></p>
+                
+                </div>
+                <p><button class="buton" type="submit">Añadir</button></p>
+    
+            </form>    
+        </div>
+        </section>  
+    </main>
+<footer>
+    <p>
+        Todos los derechos reservados a FRONT END 1
+    </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Stilo/Style_registro.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <header>
+        <div class="banner">20% de descuento en todos los productos!</div>
+
+        <h2> <img src="../Imag/Cpu.png" alt="imagenDeMarca">Nombre Tienda</h2>
+</header>
+<main>
+    <div class="registro">
+        <h1 class="textoprincipal" >Registro</h1>
+        <form action="/datos/" method="POST">
+       <p><input type="text" name="nombre" id="nombre" class="cajanombre" required placeholder="Nombre y Apellido"></p> 
+       <p><input type="email" name="email" id="email" class="cajanombre" required placeholder="Correo Electronico"></p>
+       <p><input type="password" name="contrasena" id="contrasena" class="cajanombre" required placeholder="Contraseña"></p> 
+            <select name="pais" id="pais" placeholder="pais" required class="cajanombre">
+                <option  option value="" disabled selected>Pais</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+            <p>
+                <button type="reset" class="botonResetear">Resetear</button>
+                <button type="submit" class="botonEnviar">Registrar</button></p>
+                
+           
+        </form>
+        <p class="tengoCuenta"> ¿Ya tenés una cuenta? <a href="../Ingreso/Ingresar.html">ingresar</a> </p>
+    </div>
+</main>
+<footer>
+    <p>
+        Todos los derechos reservados a FRONT END 1
+    </p></footer>
+</body>
+</html>

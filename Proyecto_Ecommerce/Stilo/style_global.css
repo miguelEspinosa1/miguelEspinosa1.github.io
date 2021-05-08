@@ -1,0 +1,88 @@
+:root{
+    --colorBanner : #1CD1B0;
+    --colorCuerpo: #00669F;
+    --colorTextoCentral:white;
+    --fondocajaheroe: #F3F3F3;
+    --colorMenu:#001D2D;
+    --colorReseteoFondo: #888888;
+    --colorReseteoLetra: #FFFFFF;
+    --tituloPagina:#333333;
+    --envioFondo:   #1CD1B0;
+--colorharley:#2C0187;}
+
+header{position: absolute;
+        height: 100%;
+    Width:1440px;
+}
+.botonResetear{
+    position: relative;
+    border-radius: 23.011px;
+    font-size: 24px;
+            color: var(--colorReseteoLetra);
+            background-color: var(--colorReseteoFondo);
+            text-align: center;
+            width: 300px;
+    height: 53.79px;
+    border: 0px ;
+    top: 60px;
+    }
+.botonEnviar{
+    position: relative;
+    font-size: 24px;
+    width: 300px;
+height: 53.79px;
+border-radius: 23.011px;
+background-color: var(--envioFondo);
+border: 0px;
+top: 60px;
+left: 17px;
+}
+.cajanombre{
+    font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+    width: 620px;
+height: 60px;
+padding-left: 20px;
+border: 1.53407px solid
+}
+
+footer{
+    position: absolute;
+    bottom: -400px;
+    Width:1440px;
+text-align: center;
+background-color: var(--colorCuerpo); 
+color: var(--fondocajaheroe);
+}
+main{
+    position: relative;
+}
+.banner{
+        position: sticky;
+        top: 0px;
+        font-weight: 600;
+        background-color: var(--colorBanner);
+        padding-left: 20px;
+        font-size: 15px;
+        padding-top: 2px;
+        padding-bottom: 3px;
+        z-index: 999;
+}
+header h2{
+    background-color: var(--colorCuerpo);
+    margin: 0px;
+color: var(--colorTextoCentral);
+font-size: 30px;
+font-style: normal;
+padding-bottom: 18px;
+padding-top: 10px;
+font-style: normal;
+font-weight: normal;
+}   
+body{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}

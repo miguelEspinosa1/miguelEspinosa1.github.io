@@ -1,0 +1,87 @@
+@import url("./style_global.css");
+h1{
+    background-color: var(--colorCuerpo);
+    margin: 0px;
+color: var(--colorTextoCentral);
+font-size: 60px;
+font-style: normal;
+padding-bottom: 18px;
+padding-top: 10px;
+padding-left: 30px;
+font-style: normal;
+font-weight: normal;
+z-index: 20;
+}   
+main{position: absolute;
+    background-image: url("../Imag/bg\ 1.png");
+    width: 1442px;
+height: 808px;
+z-index: 1;
+top: 126px;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 1442px 607px; ;
+}
+.harley{position: relative;
+border-radius: 100%;
+width: 159px;
+height: 159px;
+bottom: 100px;
+left: 200px;
+}
+.tituloHarley{position: relative;
+  color: var(--colorharley);
+font-size: 33px;
+bottom: 120px;
+left: 180px;
+}
+.textoharley{position: relative;
+    width: 500px;
+height: 158px;
+font-size: 17px;
+bottom: 140px;
+left: 20px;
+font-style:italic;
+}
+.fondoHarley{
+    width: 546px;
+height: 456px;
+background-color: var(--fondocajaheroe);
+position: absolute;
+top: 215px;
+left: 449px;
+border-top-right-radius: 50px;
+border-top-left-radius: 50px;
+
+}
+.bordeCorazon{
+    position: relative;
+    right: 140px;
+    bottom: 70px;
+}
+.armasHarley{
+    position: relative;
+    bottom: 120px;
+    left: 150px;
+}
+.texto{
+    text-decoration: none;
+    color: var(--colorharley);
+}
+.linkhome{position:relative;
+    background-color: var(--colorharley);
+    text-decoration: none;
+    color: var(--fondocajaheroe);
+  padding-top: 31px;
+  padding-bottom: 33px;
+  padding-left:206px;
+padding-right: 205px;
+    font-size: 20px;
+    text-align: center;
+    width: 547px;
+    height: 87px;
+    bottom: 38px;
+    left: 1px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius:  50px;
+    }
